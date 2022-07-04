@@ -1,0 +1,126 @@
+
+* {
+  font-family: 'Finlandica', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: lightgreen;
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+
+body {
+  min-height: 100vh;
+}
+
+footer { 
+  height: 50px;
+  width: 100%;
+  background-color: lightgreen;
+  position: sticky;
+  top: 100%;
+  text-align: center;
+}
+
+footer p{
+  padding-top: 15px
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.nav-list {
+  float: right;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.nav-list li {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.nav-list li a{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  
+}
+
+button {
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #FAD207;
+  border-radius: 20px;
+  border-style: none;
+}
+
+
+.webname {
+  color: #50758D;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.welcometext {
+  color: #50758D;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-style: italic;
+  text-align: center;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 65%;
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+
+}
+
+td, th {
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: #50758D;
+}
+
+
